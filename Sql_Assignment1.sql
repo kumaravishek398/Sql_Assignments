@@ -96,9 +96,9 @@ IsDiscontinued  bit
 #Index for Product Table
 
 CREATE INDEX IndexProductSupplierId
-ON ProductTable(ID);
+ON Product(ID);
 CREATE INDEX IndexProductName
-ON ProductTable(ProductName);
+ON Product(ProductName);
 
 
 INSERT INTO Product(ID,ProductName,UnitPrice,Package,IsDiscontinued)
